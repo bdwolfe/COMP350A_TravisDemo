@@ -10,3 +10,9 @@ python:
 
 script: "python simple_tests.py"
 
+notifications:
+  email:
+    recipients:
+      - bdwolfe@gcc.edu
+    on_success: always
+    on_failure: always
